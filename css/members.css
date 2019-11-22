@@ -1,0 +1,136 @@
+.table-members {
+  color: #fff;
+	width: 100%;
+}
+
+.table-members tr td {
+	padding: 10px;
+	font-size: 14px;
+}
+.table-members tr:hover  td{
+	background: #3f444a;
+}
+.table-members a {
+	color: #E7BF3A!important;
+}
+.table-members thead tr td {
+	background: #14161b;
+}
+
+.table-members tbody tr td {
+	background: #1F2126;
+	border-bottom: 1px solid #2b2d32;
+}
+
+.table-members tr.t-header td {
+	background: #0B0C10;
+	border-bottom: none;
+}
+
+.table-members tr td i {
+	float: right;
+}
+
+.table-members .countdown-mini div {
+	padding: 0 10px;
+}
+
+.table-members .countdown-mini {
+	float: right;
+}
+
+.table-members span {
+	padding: 0 15px;
+}
+
+td a img {
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.card {
+	margin-bottom: 1.875rem;
+	background-color: #0B0C10;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.05);
+    box-shadow: 0 2px 1px rgba(0,0,0,.05);
+	border-radius: 0;
+	color: #eee;
+}
+
+.profile-details {
+	font-size: 1rem;
+    font-weight: 400;
+}
+
+.bg-cover {
+	-webkit-background-size: cover!important;
+	background-size: cover!important;
+}
+
+.card-img-top {
+	height: 200px;
+	width: 800px;
+}
+
+.card-header{
+    border-bottom:none
+}
+.card-header .card-title{
+    margin-bottom:0
+}
+
+.card-header .heading-elements,.card-header .heading-elements-toggle{
+    background-color:inherit;
+    position:absolute;
+    top:20px;
+    right:20px
+}
+.card-header .heading-elements-toggle.heading-top-elements .page-item,.card-header .heading-elements.heading-top-elements .page-item{
+    display:inline-block
+}
+.card-header .heading-elements a,.card-header .heading-elements-toggle a{
+    padding:0 8px
+}
+.card-header .heading-elements a.btn,.card-header .heading-elements-toggle a.btn{
+    padding-top:6px;
+    padding-bottom:6px
+}
+
+.profile-card-with-cover .card-profile-image {
+	position: absolute;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-profile-image img {
+	width: 110px;
+}
+
+.profile-card-with-cover .card-profile-image img.img-border {
+	border: 6px solid #0B0C10;
+}
+
+.profile-card-with-cover .profile-card-with-cover-content {
+    padding-top: 4rem;
+}
+
+.card .card-title {
+    font-weight: 500;
+    letter-spacing: .05rem;
+	margin-bottom: 1.2rem;
+}
+
+ul.list-inline li {
+	display: inline-block;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.mr-3 {
+	margin-right: 3rem;
+}

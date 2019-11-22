@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coming Soon — First Cinema</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/soon.css">
+  </head>
+  <body>
+
+    <div class="background">
+      <div class="center">
+        <img src="https://i.imgur.com/t4om0wC.png" alt="First Cinema Logo">
+        <img src="images/text-logo.png" alt="First Cinema Text Logo" style="width: 225px; margin-right: 0;">
+        <!-- <h1>First Cinema</h1> -->
+        <hr>
+        <p id="countdown"><span>0</span>d <span>0</span>h <span>0</span>m <span>0</spans</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+
+      var countdownDate = new Date("Feb 31, 2020 00:00:00").getTime();
+
+      var countFunction = setInterval(function() {
+
+        var now = new Date().getTime();
+
+        var distance = countdownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor ((distance % (1000 * 60 * 60 * 24)) / (1000 * 60  * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("countdown").innerHTML = "<span>" + days + "</span>d <span>"
+          + hours + "</span>h <span>" + minutes + "</span>m <span>" + seconds + "</span>s";
+
+        if (distance < 0) {
+          clearInterval(countFunction);
+          document.getElementById("countdown").innerHTML = "Released.";
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

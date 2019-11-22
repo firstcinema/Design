@@ -1,0 +1,52 @@
+.section {
+  margin-top: 50px;
+}
+
+.search-box {
+  margin: 50px 0;
+}
+
+.search-box input[type=text] {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-sizing: content-box;
+  border-bottom: 2px solid #97989b;
+  color: #fff;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.browse-by h3 {
+  float: left;
+  margin: 9px 10px 0 0;
+  font-size: 1rem;
+  color: #97989b;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.filter {
+  display: inline-block;
+}
+
+.filter li {
+  float: left;
+}
+
+.first-select {
+  border-radius: 0;
+}
+
+.first-select option {
+  clear: both;
+  color: #000;
+  cursor: pointer;
+  line-height: 1.3rem;
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+}

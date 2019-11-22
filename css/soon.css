@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.background {
+  background: url('../soon/Background.png');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #eee;
+  font-family: 'Lato';
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center img {
+  margin-right: 10px;
+  width: 100px;
+}
+
+#countdown {
+  font-size: 30px;
+  font-weight: 100;
+  word-spacing: 25px;
+}
+
+#countdown > span {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 30px;
+  font-weight: 100;
+}
+
+hr {
+  margin: 25px auto;
+  width: 80%;
+  border: 1.5px solid #fff;
+}
